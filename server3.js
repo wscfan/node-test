@@ -13,4 +13,4 @@ setInterval(() => {
   eventEmitter.emit('sub_event');
 }, 1000);
 
-console.log(eventEmitter.listeners('sub_event'))
+console.log(eventEmitter.listeners('sub_event'));
